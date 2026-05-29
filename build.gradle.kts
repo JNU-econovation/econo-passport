@@ -73,6 +73,11 @@ publishing {
         create<MavenPublication>("maven") {
             from(components["java"])
 
+            versionMapping {
+                usage("java-api") { fromResolutionOf("runtimeClasspath") }
+                usage("java-runtime") { fromResolutionResult() }
+            }
+
             pom {
                 name.set("econo-passport")
                 description.set(

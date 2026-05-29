@@ -5,7 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.7"
 }
 
-group = "com.github.kmando01"
+group = "com.github.JNU-econovation"
 version = "1.0.0"
 
 repositories {
@@ -79,7 +79,7 @@ publishing {
                     "Passport-based authentication library for ECONO microservices. " +
                         "Provides @PassportAuth annotation for Spring MVC services behind api-gateway."
                 )
-                url.set("https://github.com/kmando01/econo-passport")
+                url.set("https://github.com/JNU-econovation/econo-passport")
 
                 licenses {
                     license {
@@ -98,9 +98,9 @@ publishing {
                 }
 
                 scm {
-                    connection.set("scm:git:git://github.com/kmando01/econo-passport.git")
-                    developerConnection.set("scm:git:ssh://github.com/kmando01/econo-passport.git")
-                    url.set("https://github.com/kmando01/econo-passport")
+                    connection.set("scm:git:git://github.com/JNU-econovation/econo-passport.git")
+                    developerConnection.set("scm:git:ssh://github.com/JNU-econovation/econo-passport.git")
+                    url.set("https://github.com/JNU-econovation/econo-passport")
                 }
             }
         }

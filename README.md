@@ -1,6 +1,6 @@
 # econo-passport
 
-[![JitPack](https://jitpack.io/v/kmando01/econo-passport.svg)](https://jitpack.io/#kmando01/econo-passport)
+[![JitPack](https://jitpack.io/v/JNU-econovation/econo-passport.svg)](https://jitpack.io/#JNU-econovation/econo-passport)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ECONO 마이크로서비스에서 `@PassportAuth` 어노테이션을 통해 인증/인가를 간편하게 처리할 수 있는 라이브러리입니다.
@@ -25,7 +25,7 @@ repositories {
 
 ```kotlin
 dependencies {
-    implementation("com.github.kmando01:econo-passport:1.0.0")
+    implementation("com.github.JNU-econovation:econo-passport:1.0.0")
 }
 ```
 
